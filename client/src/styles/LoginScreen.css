@@ -1,0 +1,39 @@
+/* Styling for the login screen container */
+.login-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+/* Styling for the login container */
+.login-container {
+    background-color: #ffffff; /* Background color for the login container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle effect */
+    text-align: center;
+}
+
+/* Styling for the login title */
+.login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the Google Login button */
+/* You can further style the button according to your preference */
+.google-login-button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-login-button:hover {
+    background-color: #357ae8;
+}

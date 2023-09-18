@@ -1,0 +1,71 @@
+/* Main.css */
+
+/* Container holding the main content */
+.container_main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+/* Main content box */
+.main_box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 6rem;
+    width: 55%;
+    background-color: rgba(14, 200, 200, 0.767);
+    text-align: center;
+}
+
+/* Title styling */
+.title_main {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.form_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Input field styling */
+.userid_main {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 16px;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+/* Button styling */
+.btn_main {
+    background-color: #007bff;
+    color: #fff;
+    margin: 0.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_main:hover {
+    background-color: #0056b3;
+}
+.steps_text {
+    font-size: 1.5rem;
+}
+/* Additional styling for smaller screens */
+@media (max-width: 768px) {
+    .main_box {
+        width: 80%;
+    }
+}
